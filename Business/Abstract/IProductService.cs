@@ -25,6 +25,7 @@ namespace Business.Abstract
 
         IDataResult<Product> GetById(int productId);
 
+      //  IDataResult<List<Product>> GetByCategoryId(int categoryId);
 
     }
 }
