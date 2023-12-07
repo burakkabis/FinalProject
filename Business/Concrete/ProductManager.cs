@@ -39,8 +39,8 @@ namespace Business.Concrete
         }
 
 
-        //aTTRIBUTE:bIR METHODA ANLAM KATMAYA CALISTIGIMIZ YAPILARDIR.
-        [SecuredOperation("product.add,admin")]
+        //ATTRIBUTE:BIR METHODA ANLAM KATMAYA CALISTIGIMIZ YAPILARDIR.
+       // [SecuredOperation("product.add,admin")]
 
         [ValidationAspect(typeof(ProductValidator))] //Autofac devereye sokuyor.Attribute lara tipleri typeof ile atariz.
         [CacheRemoveAspect("IProductService.Get")]
